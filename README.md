@@ -1,6 +1,6 @@
 # Screenshot Poll
 
-A Python-based server to serve sending a periodical screenshots. This can be used to share a screen live without explicitly opening screen-sharing software (e.g. remote desktop, OBS, etc.).
+A Python-based server to serve sending a periodical screenshots. This can be used to share a screen live without explicitly showing that we're screen-sharing. Although, as this program is unoptimized, this still consumes lots of bandwidth (around 2 Mbps) due to sending periodic full-screen-sized images.
 
 ## Requirements
 
@@ -63,3 +63,5 @@ You'll need to copy the `index.html` into the correct path so that the `/viewer`
 ## Author
 
 Ferdiant Joshua Muis
+
+_P.S. this app is mostly created by Claude. I just modify some part of it._

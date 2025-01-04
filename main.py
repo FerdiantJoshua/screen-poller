@@ -3,7 +3,7 @@ import time
 from io import BytesIO
 
 from flask import Flask, send_file, send_from_directory
-from PIL import Image
+from PIL import Image  # we need to import this to allow pyautogui.screenshot() to work
 import pyautogui
 
 app = Flask(__name__)
