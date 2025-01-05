@@ -40,6 +40,9 @@ Access the server in `localhost:5000`.
 3. `/viewer`  
     The GUI version, to help polling the screenshot periodically, and also support partial screenshot.
 
+4. `/shutdown`
+    Terminate the server gracefully.
+
 ## Building into A No-console Executable
 
 Create a windowless executable, so that the server can be run without any visual trace, therefore becoming invisible when screen sharing.
