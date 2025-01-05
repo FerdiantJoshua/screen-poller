@@ -20,12 +20,12 @@ def get_screenshot():
     
     # Convert to bytes
     img_byte_arr = BytesIO()
-    screenshot.save(img_byte_arr, format='PNG')
+    screenshot.save(img_byte_arr, format='WEBP', quality=50)
     img_byte_arr.seek(0)
     
     return send_file(
         img_byte_arr,
-        mimetype='image/png',
+        mimetype='image/webp',
         as_attachment=False
     )
 
