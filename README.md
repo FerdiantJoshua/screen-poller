@@ -13,6 +13,15 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+### Linux
+
+On Linux Ubuntu 22.04.4 LTS, you need to install these dependencies too:
+
+```sh
+sudo apt-get install python3-tk python3-dev  # this is for pyautogui to work
+sudo apt install gnome-screenshot  # this is for Pillow to work
+```
+
 ## Usage
 
 ### Development Mode
